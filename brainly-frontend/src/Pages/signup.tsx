@@ -23,7 +23,7 @@ export function Signup(){
             <div className="flex flex-col border-2 bg-yellow-200 p-8 rounded-md gap-5">
             <InputField reference={usernameRef}  placeholder="Username"/>
             <InputField reference={passwordRef}  placeholder="Password"/> 
-             <Button onClick={signup} variant={"primary"} text={"Signup"}/>
+             <Button  onClick={signup} variant={"primary"} text={"Signup"}/>
         </div>
         </div>
     

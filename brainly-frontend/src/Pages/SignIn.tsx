@@ -13,10 +13,11 @@ export function SignIn(){
             username,
             password
         })
-        const token = response.data.token;
-        localStorage.setItem("Authorization" , token);
+        const token = response.data.token as string;
+         
+        localStorage.setItem("Authorization" , `${token}`);
         window.location.href = "/dashboard";
-       
+    
     }
     return (
         <div  className=" flex flex-col  justify-center items-center 
