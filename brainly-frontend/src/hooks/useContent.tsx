@@ -14,6 +14,7 @@ export function useContent(){
         .then((response: any) => {
             setContent(response.data.content)
         })
+        console.log(content)
     },[])
     return content
 }

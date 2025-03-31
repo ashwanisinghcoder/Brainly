@@ -23,7 +23,6 @@ export  function   Dashboard() {
             }}>
             <Button variant={"primary"} text={"Add Content"} startIcon={<PlushIcon />}></Button>
             </div>
-        
             <Button variant={"secondary"} text={"hi there"} startIcon={<ShareIcon/>}/>
     </div>
     <div className="flex gap-10 flex-wrap p-10">
